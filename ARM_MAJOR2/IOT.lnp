@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "uart0.o" "esp01.o" "lcd.o" "delay.o" "dht11.o" "i2c.o" "i2c_eeprom.o" "keypad.o" "external_interrupts_test.o" "pro_main.o" "rtc.o" --strict --scatter "IOT.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\IOT.map" -o "IOT.axf"

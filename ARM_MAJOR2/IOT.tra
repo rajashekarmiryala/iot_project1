@@ -1,0 +1,30 @@
+*** Creating Trace Output File 'IOT.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"esp01.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"dht11.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"i2c_eeprom.o"'
+### List of Objects: adding '"keypad.o"'
+### List of Objects: adding '"external_interrupts_test.o"'
+### List of Objects: adding '"pro_main.o"'
+### List of Objects: adding '"rtc.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart0.o" "esp01.o" "lcd.o" "delay.o" "dht11.o" "i2c.o" "i2c_eeprom.o" "keypad.o" "external_interrupts_test.o" "pro_main.o" "rtc.o" --strict --scatter "IOT.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\IOT.map" -o "IOT.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'IOT.axf'
+### ADS-LD Command File: 'IOT.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'IOT.lnp', Handle=0x00000368
+### Writing '.lnp' file
+### ADS-LD Command file 'IOT.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

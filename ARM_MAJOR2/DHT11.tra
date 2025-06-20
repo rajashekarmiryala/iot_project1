@@ -1,0 +1,30 @@
+*** Creating Trace Output File 'DHT11.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"esp01.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"dht11.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"i2c_eeprom.o"'
+### List of Objects: adding '"keypad.o"'
+### List of Objects: adding '"external_interrupts_test.o"'
+### List of Objects: adding '"pro_main.o"'
+### List of Objects: adding '"rtc.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart0.o" "esp01.o" "lcd.o" "delay.o" "dht11.o" "i2c.o" "i2c_eeprom.o" "keypad.o" "external_interrupts_test.o" "pro_main.o" "rtc.o" --strict --scatter "DHT11.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\DHT11.map" -o "DHT11.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'DHT11.axf'
+### ADS-LD Command File: 'DHT11.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'DHT11.lnp', Handle=0x00000310
+### Writing '.lnp' file
+### ADS-LD Command file 'DHT11.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,15 @@
+pro_main.o: pro_main.c
+pro_main.o: C:\KeilARM\ARM\INC\Philips\lpc21xx.h
+pro_main.o: types.h
+pro_main.o: delay.h
+pro_main.o: defines.h
+pro_main.o: keypad.h
+pro_main.o: uart0.h
+pro_main.o: i2c.h
+pro_main.o: esp01.h
+pro_main.o: lcd.h
+pro_main.o: i2c_defines.h
+pro_main.o: i2c_eeprom.h
+pro_main.o: extint.h
+pro_main.o: dht11.h
+pro_main.o: rtc.h
