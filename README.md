@@ -13,12 +13,15 @@ LCD : To display data from sensors and system status.
 BUZZER : For alerting when threshold violations occur.
 WI-FI MODULE (ESP01): To send data to the Thingspeak cloud for remote monitoring.
 DB-9 CABLE/USB-UART CONVERTER : To interface with UART for communication.
+-
 💾 SOFTWARE REQUIREMENTS:
 
 KEIL C Compiler : For embedded C programming.
 PROGRAMMING IN EMBEDDED C :The primary programming language for LPC2148.
 Flash Magic:To load the program onto the LPC2148.
-🏗️ SYSTEM ARCHITECTURE: image image
+🏗️ SYSTEM ARCHITECTURE: 
+![image](https://github.com/user-attachments/assets/daf0d0f5-edc1-4144-84d5-c91e29f4dd4d)
+
 
 🔑 KEY FEATURES:
 
